@@ -63,8 +63,8 @@ def wait_for_success(kickoff_id, url, headers, max_retries=30, delay=5):
     return None
 
 # Configuração da URL e token
-url = "https://crewai-deploy-1c872a9f-886b-47bf-9f0d-89eb1-97620b58.crewai.com"
-token = "9b117b30b56d"
+url = "https://crewai-e5a3f2e3-c32a-4088-bffc-28126e7ed259-0b9c7542.crewai.com"
+token = "be658046e6c6"
 headers = {
     "Authorization": f"Bearer {token}",
     "Content-Type": "application/json"
